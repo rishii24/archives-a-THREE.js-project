@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*::-webkit-scrollbar{
+    display: none;
+}
+html,
+body
+{
+    max-height: 100vh;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    height: 100vh  !important;
+}
+
+.content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.content h1{
+    font-size: 50px;
+    margin-left:10vw ;
+    font-weight: lighter;
+}
+
+.content p{
+    font-size:20px ;
+    margin-top: 20px;
+    margin-left:10vw ;
+    width: 520px;
+}
+
+.content span{
+    width: 500px;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left:10vw ;
+}
+
+.content .scroll{
+    position: absolute;
+    top: 650px;
+    font-size: 14px;
+    margin-left:10.5vw ;
+}
+.content .copyright{
+    position: absolute;
+    top: 690px;
+    left: -1;
+    font-size: 14px;
+}
